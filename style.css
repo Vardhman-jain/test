@@ -1,0 +1,16 @@
+h1{
+    font-size: 30px !important;
+}
+button{
+    height: 45px !important;
+    font-size: larger !important;
+}
+canvas{
+    animation-name: canvas_animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes canvas_animation {
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
